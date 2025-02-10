@@ -12,7 +12,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 冰河标日学习日志
+title: 冰河标日学习日志2
 sidebartitle: 冰河标日
 email: icer@icerdesign.com
 description: 冰河魔法师的标准日本语学习日志
@@ -23,7 +23,7 @@ url: "http://japan.icerdesign.com" # the base hostname & protocol for your site
 username: 冰河魔法师
 user_description: C#资深架构师
 twitter_username: wizicer
-github_username:  wizicer
+github_username: wizicer
 # gplus_username:  lorem_ipsum
 # disqus_username: lorem_ipsum
 
@@ -57,7 +57,20 @@ links:
     url: /about/index.html
 
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules', 'site.vfs', 'Gemfile.lock', 'Gemfile', 'CNAME', 'LICENSE', '*.bat', 'gulpfile.js', 'ionic']
+exclude:
+  [
+    "package.json",
+    "src",
+    "node_modules",
+    "site.vfs",
+    "Gemfile.lock",
+    "Gemfile",
+    "CNAME",
+    "LICENSE",
+    "*.bat",
+    "gulpfile.js",
+    "ionic",
+  ]
 
 la51_analytics: 17278963
 
