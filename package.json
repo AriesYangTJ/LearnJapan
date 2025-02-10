@@ -6,7 +6,8 @@
   "scripts": {
     "ionic": "jekyll b --config _config.yml --destination ionic/src/assets/site/",
     "dev": "jekyll s --config _config.yml,_config.dev.yml",
-    "devi": "jekyll s -i --config _config.yml,_config.dev.yml"
+    "devi": "jekyll s -i --config _config.yml,_config.dev.yml",
+    "build": "jekyll s -i --config _config.yml,_config.dev.yml"
   },
   "keywords": [
     "frontend",
